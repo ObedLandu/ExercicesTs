@@ -1,11 +1,6 @@
-function add(a: number, b: number): number {
-    return a + b;
+function reverseChaine(str: string): string {
+  return str.split("").reverse().join("");
 }
-
-const result = add(5, 3);
-console.log(result); 
-
-const estPair = (n : number) : boolean => {
-    return n % 2 === 0;
-}
-console.log(estPair(2));
+let maChaine = "Bonjour le monde";
+let chaineInversee = reverseChaine(maChaine);
+console.log(chaineInversee); 
